@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_ocean.mk
+    $(LOCAL_DIR)/komodo_ocean.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_ocean-eng \
-    aosp_ocean-user \
-    aosp_ocean-userdebug
+    komodo_ocean-eng \
+    komodo_ocean-user \
+    komodo_ocean-userdebug

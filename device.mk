@@ -85,6 +85,10 @@ PRODUCT_PACKAGES += \
     SecureElement \
     android.hardware.nfc@1.2-service.st
 
+# Komodo OS
+TARGET_USES_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \

@@ -22,6 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit some common Komodo OS stuff
 $(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 KOMODO_GAPPS_TYPE := nogapps
+KOMODO_OFFICIAL := true
 
 # Inherit from ocean device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
